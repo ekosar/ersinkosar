@@ -42,6 +42,6 @@
     "url": "https://github.com/prvnbist/portfolio/issues"
   },
   "scripts": {
-    "deploy": "firebase deploy --token \"$FIREBASE_TOKEN\" --only hosting:$FIREBASE_ENV";
+    "deploy": "firebase deploy --token \"$FIREBASE_TOKEN\" --only hosting:$FIREBASE_ENV"
   }
 }
