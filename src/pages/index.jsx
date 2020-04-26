@@ -26,7 +26,7 @@ const IndexPage = () => {
    return (
       <Layout
          meta={{
-            title: 'Praveen Bisht | Software Engineer',
+            title: 'Ersin KOŞAR | Software Engineer',
             description:
                "Hey👋🏼, I’m Praveen, a software engineer based in New Delhi who enjoys building apps from idea to implementation. I've experience with both design & development(front-end & back-end).",
             keywords:
@@ -34,7 +34,7 @@ const IndexPage = () => {
          }}>
          <StyledWrapper>
             <div>
-               <StyledName>Praveen Bisht</StyledName>
+               <StyledName>Ersin KOŞAR</StyledName>
                <StyledHeading>
                   I design
                   <span role="img" aria-label="paint board">
