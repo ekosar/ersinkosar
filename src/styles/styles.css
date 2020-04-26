@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Roobert', sans-serif;
+}
+body {
+   color: #fff;
+   overflow: hidden;
+   background: #19191c;
+}
+
+::-moz-selection {
+   color: #19191c;
+   background: #fff;
+}
+
+::selection {
+   color: #19191c;
+   background: #fff;
+}
+a {
+   color: #719df0;
+}
+
+@font-face {
+   font-family: 'Roobert';
+   font-style: normal;
+   font-weight: 300;
+   src: url('/fonts/RoobertLight.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Roobert';
+   font-style: normal;
+   font-weight: 400;
+   src: url('/fonts/RoobertRegular.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Roobert';
+   font-style: normal;
+   font-weight: 500;
+   src: url('/fonts/RoobertMedium.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Roobert';
+   font-style: normal;
+   font-weight: 600;
+   src: url('/fonts/RoobertSemiBold.woff') format('woff');
+}
