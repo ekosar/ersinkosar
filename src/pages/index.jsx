@@ -15,13 +15,12 @@ const IndexPage = () => {
    const [socials] = React.useState([
       {
          title: '🖼️ Instagram',
-         url: 'https://www.instagram.com/prvnbist'
+         url: 'https://www.instagram.com/ersin_kosar'
       },
-      { title: '🐤 Twitter', url: 'https://www.twitter.com/prvnbist' },
-      { title: '🤝🏼 LinkedIn', url: 'https://www.linkedin.com/in/prvnbist' },
-      { title: '👨‍💻 Github', url: 'https://www.github.com/prvnbist' },
-      { title: '🎨 Dribbble', url: 'https://www.dribbble.com/prvnbist' },
-      { title: '👨‍💻 Codepen', url: 'https://www.codepen.io/prvnbist' }
+      { title: '🐤 Twitter', url: 'https://www.twitter.com/ersinkosar' },
+      { title: '🤝🏼 LinkedIn', url: 'https://www.linkedin.com/in/ersinkosar' },
+      { title: '👨‍💻 Github', url: 'https://www.github.com/ersinkosar' }
+     
    ])
    return (
       <Layout

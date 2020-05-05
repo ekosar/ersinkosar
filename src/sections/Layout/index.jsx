@@ -49,20 +49,20 @@ const Layout = ({ children, meta }) => {
                property="og:url"
                content={
                   meta.url
-                     ? `https://www.prvnbist.com${meta.url}`
-                     : 'https://www.prvnbist.com'
+                     ? `https://www.ersinkosar.com${meta.url}`
+                     : 'https://www.ersinkosar.com'
                }
             />
             <meta
                property="og:image"
                content={
-                  meta.image ? `https://www.prvnbist.com${meta.image}` : ''
+                  meta.image ? `https://www.ersinkosar.com${meta.image}` : ''
                }
             />
             {/* Twitter tags */}
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:site" content="@prvnbist" />
-            <meta name="twitter:creator" content="@prvnbist" />
+            <meta name="twitter:site" content="@ersinkosar" />
+            <meta name="twitter:creator" content="@ersinkosar" />
          </Helmet>
          <Navbar />
          <StyledWrapper>
